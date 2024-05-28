@@ -9,7 +9,7 @@ pipeline {
         stage ('fetch code') {
             steps {
                 script {
-                    echo "Pull source code from Git"
+                    echo "Pull source code from Github"
                     git branch: 'main', url: 'https://github.com/Isaiahat/Ansible-config-mgt.git'
                 }
             }
