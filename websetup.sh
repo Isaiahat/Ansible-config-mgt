@@ -33,4 +33,4 @@ echo "########################################"
 echo "Removing Temporary Files"
 echo "########################################"
 sudo rm -rf /tmp/webfiles
-echo
+echo "job done"
