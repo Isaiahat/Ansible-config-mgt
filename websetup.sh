@@ -5,7 +5,7 @@ echo "########################################"
 echo "Installing packages."
 echo "########################################"
 sudo yum update -y > /dev/null
-sudo yum install wget unzip apache2 -y > /dev/null
+sudo yum install wget unzip httpd -y > /dev/null
 echo
 
 # Creating Temp Directory
@@ -25,7 +25,9 @@ echo
 echo "########################################"
 echo "Restarting Apache Webserver service"
 echo "########################################"
-sudo systemctl restart apache2
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl restart httpd
 echo
 
 # Clean Up
