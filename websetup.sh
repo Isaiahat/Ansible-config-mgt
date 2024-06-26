@@ -36,4 +36,4 @@ echo "Removing Temporary Files"
 echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
-echo "all men are mortals" 
+echo "all men are mortalss" 
