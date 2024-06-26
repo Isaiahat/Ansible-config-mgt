@@ -25,9 +25,9 @@ echo
 echo "########################################"
 echo "Restarting Apache Webserver service"
 echo "########################################"
-sudo systemctl start httpd
-sudo systemctl enable httpd
-sudo systemctl restart httpd
+sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo systemctl restart apache2
 echo
 
 # Clean Up
@@ -36,4 +36,5 @@ echo "Removing Temporary Files"
 echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
+Mkdir ansible-config-artifact
 echo "nicely donef"
