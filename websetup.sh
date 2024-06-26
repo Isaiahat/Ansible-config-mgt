@@ -36,5 +36,4 @@ echo "Removing Temporary Files"
 echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
-mkdir /home/ubuntu/ansible-config-artifact
-echo "nicely done"
+sudo mkdir /home/ubuntu/ansible-config-artifact
