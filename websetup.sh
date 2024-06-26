@@ -37,4 +37,4 @@ echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
 Mkdir ansible-config-artifact
-echo "nicely donef"
+echo "nicely done"
