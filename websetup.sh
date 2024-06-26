@@ -37,3 +37,4 @@ echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
 sudo mkdir /home/ubuntu/ansible-config-artifact
+echo "ansible-config-artifact folder created"
