@@ -37,3 +37,4 @@ echo "########################################"
 sudo rm -rf /tmp/webfiles
 echo "job done"
 echo "all men are mortals and socrates is a man" 
+mkdir /home/ubuntu/test_folder
