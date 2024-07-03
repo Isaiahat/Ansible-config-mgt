@@ -36,5 +36,5 @@ echo "Removing Temporary Files"
 echo "########################################"
 #sudo rm -rf /tmp/webfiles
 echo "job done"
-mkdir /home/ubuntu/test_folder
+mkdir  sudo mkdir /home/ubuntu/test_folder
 echo "test folder created."
