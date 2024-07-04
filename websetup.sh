@@ -37,4 +37,4 @@ echo "########################################"
 #sudo rm -rf /tmp/webfiles
 echo "job done"
 mkdir  sudo mkdir /home/ubuntu/test_folder
-echo "test folder created"
+echo "test folder creatednow "
