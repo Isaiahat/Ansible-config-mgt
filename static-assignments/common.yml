@@ -1,6 +1,6 @@
 ---
 - name: install wireshark on ubuntu
-  hosts: webservers
+  hosts: uat-webservers
   become: yes
     
   tasks:
